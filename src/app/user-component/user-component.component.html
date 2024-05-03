@@ -1,0 +1,8 @@
+<div>
+    <h2>User Data</h2>
+    <div *ngIf="userData">
+        <p>Name: {{ userData.name }}</p>
+        <p>Email: {{ userData.email }}</p>
+    </div>
+    <button (click)="updateUser()">Update User Data</button>
+</div>
